@@ -15,7 +15,7 @@ spec:
         app: db
     spec:
       containers:
-      - image: postgres:9.4
+      - image: postgres:bullseye
         name: postgres
         env:
         - name: POSTGRES_USER
